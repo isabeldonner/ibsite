@@ -1,1 +1,15 @@
-
+h1{
+  color:#7AAEFF;
+  text-decoration:underline;
+  font-family:helvetica;
+}
+body{
+  background-color:#D4F5FF;
+}
+p li{
+  color:grey;
+  transition:2s
+}
+p:hover li:hover{
+  font-size:45px;
+}  
