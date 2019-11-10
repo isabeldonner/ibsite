@@ -6,14 +6,27 @@ h2{
 body{
   background-color:#D4F5FF;
 }
-p li{
+p, li{
   color:grey;
   transition:2s
 }
-p:hover li:hover{
+p:hover, li:hover{
   font-size:45px;
 }
 h1{
   color:black;
   font-size:75px
-}    
+} 
+img{
+  align:middle;
+  animation: big 2s;
+  width:250px;
+  height:250px
+}
+@big{
+  from:{width:250px;
+    height:250px}
+  to:{width:300px;
+    height:300px}
+}
+
