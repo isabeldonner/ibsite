@@ -1,21 +1,22 @@
 h2{
-  color:#7AAEFF;
+  color:grey;
   text-decoration:underline;
   font-family:helvetica;
 }
 body{
-  background-image:url(https://assets-eu-1.generation-y.net/5s4StuYMHgBpneoDVn_GXzzlU7A=/fit-in/700x600/assets-generation-y.s3.amazonaws.com/pinewood/uploads/asset/data/219/ib_logo_triling_2012_med.jpg);
+  background-image:url(https://www.dallasisd.org/cms/lib/TX01001475/Centricity/Domain/16732/2012-03-21-STAIBWorldSchoolPageImage.png)
 }
 p, li{
-  color:grey;
+  color:#7AAEFF;
   transition:2s
 }
 p:hover, li:hover{
   font-size:45px;
 }
 h1{
-  color:black;
-  font-size:75px
+  color:blue;
+  font-size:75px;
+  text-decoration:underline;
 } 
 img{
   align:middle;
@@ -23,10 +24,12 @@ img{
   width:250px;
   height:250px
 }
-@big{
-  from:{width:250px;
+@keyframes big{
+  from{width:250px;
     height:250px}
-  to:{width:300px;
+  to{width:300px;
     height:300px}
 }
-
+a{
+  text-decoration:none;
+}  
