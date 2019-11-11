@@ -35,5 +35,5 @@ a{
 }  
 .content, .header{
   background-color:#f2f2f2;
-  display:block;
+  display:inline;
 }    
