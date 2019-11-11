@@ -36,4 +36,16 @@ a{
 .content, .header{
   background-color:#f2f2f2;
   display:inline;
-}    
+}
+@keyframes pop{
+  from{color:#3399ff;
+  font-size:75px;
+    text-decoration:underline;}
+  to{color:blue;
+    font-size:85px;
+    text-decoration:bold underline;}
+}
+.pop{
+  animation: pop 2s
+}  
+
