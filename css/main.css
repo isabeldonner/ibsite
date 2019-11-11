@@ -35,6 +35,7 @@ a{
 }  
 .content, .header{
   background-color:#f2f2f2;
+  display:inline
   
 }
 @keyframes pop{
@@ -45,7 +46,7 @@ a{
     font-size:85px;
     text-decoration:bold underline;}
 }
-.pop{
+.join{
   animation: pop 2s
 }  
 
