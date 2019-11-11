@@ -35,7 +35,7 @@ a{
 }  
 .content, .header{
   background-color:#f2f2f2;
-  display:inline;
+  display:inline-block;
 }
 @keyframes pop{
   from{color:#3399ff;
