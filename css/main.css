@@ -20,7 +20,7 @@ h1{
 } 
 img{
   align:center;
-  animation: big 2s;
+  animation: big 2s forwards;
   width:250px;
   height:250px
 }
@@ -35,7 +35,7 @@ a{
 }  
 .content, .header{
   background-color:#f2f2f2;
-  display:inline
+  
   
 }
 @keyframes pop{
@@ -47,6 +47,6 @@ a{
     text-decoration:bold underline;}
 }
 .join{
-  animation: pop 2s
+  animation: pop 2s forwards
 }  
 
