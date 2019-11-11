@@ -42,11 +42,11 @@ a{
   from{color:#3399ff;
   font-size:75px;
     text-decoration:underline;}
-  to{color:blue;
+  to{color:#2568e6;
     font-size:85px;
     text-decoration:bold underline;}
 }
 .join{
-  animation: pop 2s forwards
-}  
+  animation: pop 2s;
+  animation-iteration-count:1000}  
 
