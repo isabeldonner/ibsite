@@ -33,6 +33,6 @@ img{
 a{
   text-decoration:none;
 }  
-.content{
+.content, .header{
   background-color:#f2f2f2
 }    
